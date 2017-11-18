@@ -1,0 +1,6 @@
+classes= 1
+train  = /home/xiangwei/src/darknet/dataset/train.txt
+valid  = /home/xiangwei/src/darknet/dataset/test.txt
+names = data/voc.names
+backup = backup
+

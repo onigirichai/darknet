@@ -1,0 +1,1 @@
+gcc image_load_time.c  -I ../include/ -I ../src/   ../libdarknet.a  -I/usr/local/cuda/include/ -DGPU -DCUDNN -L/usr/local/cuda/lib64 -lcuda -lcudart -lcublas -lcurand -lcudnn -lpthread  -lm -lstdc++ -fopenmp -g
